@@ -15,11 +15,15 @@ conda create --name <env_name> --file requirements.txt
 conda activate <env_name>
 ```
 
-2. Download the UniAttackData dataset contents in 'datasets/FAS-CVPR2024/UniAttackData'
+2. Download the retinaface-R50.zip mxnet model for Face Detection and place it on 'models/':
+  - [Dropbox](https://www.dropbox.com/s/53ftnlarhyrpkg2/retinaface-R50.zip?dl=0)
+  - [Google Drive (re-upload)](https://drive.google.com/file/d/1vIfd21qGaOZv0ALVsSOTZadU6uKaHQuy/view?usp=drive_link)
+  
+3. Download the UniAttackData dataset contents in 'datasets/FAS-CVPR2024/UniAttackData'
 
-2. Add UniAttackData dataset passwords in FAS_CVPR2024.sh
+4. Add the UniAttackData dataset passwords in FAS_CVPR2024.sh
 
-2. Run full pipeline with
+5. Run full pipeline with
 ```bash
 bash FAS_CVPR2024.sh
 ```
