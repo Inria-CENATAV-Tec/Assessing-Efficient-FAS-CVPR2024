@@ -1,5 +1,25 @@
-# Custom Lightweight Face Anti Spoofing
-This is a fork of Lightface Anti Spoofing by kprokofi: https://github.com/kprokofi/light-weight-face-anti-spoofing modified for our needs at Tec and CENATAV.
+# Assessing the Performance of Efficient Face Anti-Spoofing Detection Against Physical and Digital Presentation Attacks
+
+This is the code repository release for the paper "Assessing the Performance of Efficient Face Anti-Spoofing Detection Against Physical and Digital Presentation Attacks" accepted at the 5th Face Anti-Spoofing Workshop and Challenge@CVPR2024.
+
+## FAS CVPR2024
+1. Create and activate virtual environment with
+```bash
+conda create --name <env_name> --file requirements.txt
+conda activate <env_name>
+```
+
+2. Download the UniAttackData dataset contents in '/datasets/FAS-CVPR2024/UniAttackData'
+
+2. Add UniAttackData dataset passwords in FAS_CVPR2024.sh
+
+2. Run full pipeline with
+```bash
+bash FAS_CVPR2024.sh
+```
+
+## Custom Lightweight Face Anti Spoofing
+This is a fork of Custom Lightweight Face Anti Spoofing at https://github.com/lluevano/Custom-Lightweight-Face-Anti-Spoofing, based on Lightweight Face Anti Spoofing https://github.com/kprokofi/light-weight-face-anti-spoofing by kprokofi.
 
 ## Add datasets
 
