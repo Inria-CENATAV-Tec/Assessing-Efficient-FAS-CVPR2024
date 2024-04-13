@@ -53,7 +53,7 @@ def norm_crop(img, landmark, image_size=112, mode='arcface'):
     
 #  Stop code from insightface
 
-def prepare_train_set(detector, img_path):
+def prepare_dataset(detector, img_path):
     #living_metadata_iter = glob2.iglob("UniAttackData/phase1/p1/train")
     #spoof_metadata_iter = glob2.iglob("train/spoof/*/*/*.txt")
     splt_path = img_path.split('/')
@@ -123,7 +123,7 @@ if __name__ == '__main__':
     #task = partial(prepare_train_set, Pickable())
     detector = Pickable().detector
     for e in lst_imgs:
-        prepare_train_set(detector, e)
+        prepare_dataset(detector, e)
     #pool.map(task, lst_imgs)
     #pool.join()
     #pool.close()
