@@ -38,8 +38,6 @@ Modified base mobilenet class for a generic anti-spoofer model class in [model_t
 ## Support
 Added support for attr_dict in python 3.10
 
-The rest of this README comes from the original repository.
-
 If you find this work useful for your research, please consider citing:
 
 ```BibTeX
@@ -67,6 +65,8 @@ If you find this work useful for your research, please consider citing:
   doi={10.1109/CVPRW59228.2023.00680}}
 ```
 
+
+The rest of this README comes from the original repository.
 
 
 --------
