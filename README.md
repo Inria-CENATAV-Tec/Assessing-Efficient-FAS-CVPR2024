@@ -1,6 +1,12 @@
 # Assessing the Performance of Efficient Face Anti-Spoofing Detection Against Physical and Digital Presentation Attacks
+Luis S. Luevano, Yoanna Martínez-Díaz, Heydi Méndez-Vázquez, Miguel González-Mendoza, Davide Frey
 
 This is the code repository release for the paper "Assessing the Performance of Efficient Face Anti-Spoofing Detection Against Physical and Digital Presentation Attacks" accepted at the 5th Face Anti-Spoofing Workshop and Challenge@CVPR2024.
+
+Abstract:
+<details> <summary>Abstract:</summary>
+In this paper, we examine how pre-processing and training methods impact on the performance of Lightweight CNNs through evaluations on MobileNetV3 with a spoofing detection head, dubbed "MobileNetV3-Spoof". Using the UniAttackData dataset from the 5th Face Anti-Spoofing Challenge@CVPR2024, which covers a broad spectrum of spoofing scenarios including deepfake and adversarial attack samples, we assess how well the model performs with over different setups, including pre-trained models and models trained from scratch with or without initial face detection and alignment. Our results show that pre-processing steps significantly boost the model's ability to identify spoof samples, especially against complex attacks. Through detailed comparisons, we offer insights that could guide data curation and the creation of more effective and efficient anti-spoofing techniques suitable for real-world use in the era of digital face attacks. We make our code publicly available at: https://github.com/Inria-CENATAV-Tec/Assessing-Efficient-FAS-Challenge-CVPR2024
+</details>
 
 ## FAS CVPR2024
 1. Create and activate virtual environment with
@@ -9,7 +15,7 @@ conda create --name <env_name> --file requirements.txt
 conda activate <env_name>
 ```
 
-2. Download the UniAttackData dataset contents in '/datasets/FAS-CVPR2024/UniAttackData'
+2. Download the UniAttackData dataset contents in 'datasets/FAS-CVPR2024/UniAttackData'
 
 2. Add UniAttackData dataset passwords in FAS_CVPR2024.sh
 
