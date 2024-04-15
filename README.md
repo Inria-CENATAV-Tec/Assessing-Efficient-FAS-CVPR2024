@@ -1,5 +1,6 @@
 # Assessing the Performance of Efficient Face Anti-Spoofing Detection Against Physical and Digital Presentation Attacks
 Luis S. Luevano, Yoanna Martínez-Díaz, Heydi Méndez-Vázquez, Miguel González-Mendoza, Davide Frey
+
 --------
 
 This is the code repository release for the paper "Assessing the Performance of Efficient Face Anti-Spoofing Detection Against Physical and Digital Presentation Attacks" accepted at the 5th Face Anti-Spoofing Workshop and Challenge@CVPR2024.
